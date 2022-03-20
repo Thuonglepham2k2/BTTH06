@@ -1,3 +1,5 @@
+alert("Sử dụng đối tượng Array")
+
 function ranDomNumber(){
     arr=[]
     for (let i =0; i<Math.floor(Math.random() *(20-10)) +10;i++){
