@@ -26,10 +26,16 @@ function arrange(){
 function addLocation(){
     number= document.getElementById('number').value
     index= document.getElementById('index').value
-
+    if ((index != "" && index != null )&& (number != ""&& number!= null)){
     arr= document.getElementById('changesInValue').innerHTML.split(',')
     
     arr.splice( index, 0, number)
     document.getElementById('changesInValue').innerHTML=arr.join(",");
+    
+    }
+    else{
+        alert("must be filled out")
+    }
+
 }
 
