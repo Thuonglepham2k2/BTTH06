@@ -1,0 +1,31 @@
+body{
+    width: 500px;
+    height:300px;
+    border: 1px solid black;  
+    margin: 100px 300px 100px 400px; 
+    
+  
+    
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+table,tr,td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    /*Thuộc tính này giúp loại bỏ khoảng cách mặc định giữa các ô*/
+    height: 45px;
+    color: blue;
+}
+table{
+    align-items: center;
+    margin: 10px 20px 100px 25px; 
+    
+    height: 150px;
+    width: 450px;
+    
+}
+
+
+

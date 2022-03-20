@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+
+</head>
+
+<body>
+
+    <header>
+        <h1> Thao tác trên mảng</h1>
+    </header>
+    <div class="table">
+
+        <table>
+            <tr>
+                <td style="text-align:center;width:20%;">
+                    <button type="button" onclick="ranDomNumber()">Tạo mảng</button>
+                </td>
+                <td id="changed" style="width:70%"></td>
+            </tr>
+
+            <tr>
+
+                <td id="demoChange" colspan="2" style="color:orange"> Giá trị của mảng sau khi xử lý</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <form action="" id="form" onchange=" arrange()">
+                        <input type="radio" value="ascending" name="arranged" id="ascending"> Sắp xếp tăng
+                        <input type="radio" value="descending" name="arranged" id="descending"> Sắp xếp giảm
+                    </form>
+                </td>
+            </tr>
+            <tr>
+
+
+                <td colspan="2" style="text-align: center;">
+                    <label for="">Thêm vào vị trí: </label>
+                    <input id="index" type="number" id="" name="" style="width: 15%;">
+                    <label for="">Giá trị: </label>
+                    <input id="number" type="number" id="" name="" style="width: 15%;">
+
+                    <button type="button" onclick="addLocation()">Thêm </button>
+
+                </td>
+
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
