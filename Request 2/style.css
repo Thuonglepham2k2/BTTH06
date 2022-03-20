@@ -1,6 +1,6 @@
 body{
-    width: 500px;
-    height:300px;
+    width: 600px;
+    height:350px;
     border: 1px solid black;  
     margin: 100px 300px 100px 400px; 
     
@@ -20,12 +20,17 @@ table,tr,td {
 }
 table{
     align-items: center;
-    margin: 10px 20px 100px 25px; 
+    margin: 10px 50px 100px 70px; 
     
     height: 150px;
     width: 450px;
     
 }
-
+#table-scroll {
+    height: 300px;
+    overflow:auto;  
+    /* margin-top:20px; */
+  }
+  
 
 
